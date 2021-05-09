@@ -9,9 +9,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}))
 
 //rota
-app.use(require('./router/index'))
+app.use(require('./router/index'));
 
 
 //porta
 app.listen(3333)
-console.log('Servidor Rodando')
+console.log('Servidor Rodando');
